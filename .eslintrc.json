@@ -1,0 +1,39 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "brace-style": [
+            "error", 
+            "stroustrup", 
+            { "allowSingleLine": true }
+        ],
+        "curly": [
+            "error", 
+            "multi-line", 
+            "consistent"
+        ]
+    }
+}
